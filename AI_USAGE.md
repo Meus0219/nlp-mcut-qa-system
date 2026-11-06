@@ -6,7 +6,7 @@
 
 | 工具 | 版本 / 方案 | 用在哪幾週 |
 |---|---|---|
-| ChatGPT Codex | GPT-5 桌面版 | Week 04 / 08 |
+| ChatGPT Codex | GPT-5 桌面版 | Week 04 / 08、Week 09 |
 
 ---
 
@@ -66,4 +66,6 @@
 ## Week 09：期中資料報告
 
 - AI 對儀表板的解讀與我的查證，請見 [`DATA_REPORT.md`](DATA_REPORT.md) 第 3.2–3.3 節。
-- 一句話：查證後，我發現 AI 的解讀 ___。
+- AI 協助我彙整 9 份 PDF 的清洗前後 chunk 數、解讀 `metrics.json`、依學號與 SEED 找出指定 chunk，並從真實的 `raw_*.md` / `cleaned_*.md` 比對中尋找清洗誤判。
+- 我回查了 `01_Data_Ingestion.ipynb` 的 `get_tar()`、實際 Markdown 行號及 JSON 內容，沒有只採用 AI 的推論。
+- 一句話：查證後，我發現 AI 對數值趨勢的解讀有資料支持，但 TAR 100% 只代表 chunk 以 `#` 開頭，不能證明標題層級或雙語配對正確。
