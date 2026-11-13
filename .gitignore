@@ -49,3 +49,7 @@ data/processed/**/*.json
 *.parquet
 *.sqlite3
 *.db
+
+# Week 10：模型與向量檔不上傳
+models/
+data/embeddings/
